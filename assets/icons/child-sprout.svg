@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">教育發展圖示</title>
+  <desc id="desc">孩童與樹苗的簡潔圖示</desc>
+  <g fill="none" stroke="#7b653a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="48" cy="26" r="11"/>
+    <path d="M29 74c2-16 10-27 19-27s17 11 19 27"/>
+    <path d="M36 56c3 5 7 8 12 8s9-3 12-8"/>
+    <path d="M48 74V55"/>
+    <path d="M48 54c-1-9 4-17 12-21"/>
+    <path d="M58 34c7-2 14 1 18 7-7 3-14 2-18-7Z"/>
+    <path d="M46 57c-4-8-11-12-20-11 3 8 10 12 20 11Z"/>
+    <path d="M22 82h52"/>
+  </g>
+</svg>
