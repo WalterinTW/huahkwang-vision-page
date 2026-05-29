@@ -196,6 +196,28 @@ a {
   overflow-wrap: anywhere;
 }
 
+.home-link-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  margin-top: 28px;
+  padding: 9px 18px;
+  color: var(--color-paper);
+  background: var(--color-wood);
+  border: 1px solid var(--color-wood);
+  border-radius: 4px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.home-link-button:hover,
+.home-link-button:focus-visible {
+  background: var(--color-earth);
+  border-color: var(--color-earth);
+}
+
 .hero-symbol {
   position: relative;
   width: 320px;
@@ -454,6 +476,13 @@ h3 {
 .footer-inner a {
   color: var(--color-paper);
   text-decoration: none;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  justify-content: flex-end;
 }
 
 .back-to-top {
