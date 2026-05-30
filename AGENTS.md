@@ -1,13 +1,13 @@
 # AGENTS.md
 
 ## Project identity
-Project name: huakwang-vision-page
+Project name: huahkwang-vision-page
 
-This project is a single-page static website for Huakwang Temple vision content.
-All naming must use `huakwang`, not `huakuang`.
+This project is a single-page static website for Huah Kwang Temple vision content.
+All naming must use `huah kwang`, not `huakuang`.
 
 ## Project goal
-Build a clean, dignified, responsive single-page website in Traditional Chinese for the future vision of Huakwang Temple.
+Build a clean, dignified, responsive single-page website in Traditional Chinese for the future vision of Huah Kwang Temple.
 
 This page should clearly present the three main directions:
 - 宗教弘法

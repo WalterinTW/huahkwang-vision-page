@@ -3,7 +3,7 @@
 \# image_mapping.md
 
 \## 用途說明
-本檔案用來提供 `huakwang-vision-page` 的視覺對照規格。  
+本檔案用來提供 `huahkwang-vision-page` 的視覺對照規格。  
 本頁主要採用「圖示」而非「照片」作為主視覺元素，目的在於清楚、簡潔地呈現三大方向。
 
 內容包含：

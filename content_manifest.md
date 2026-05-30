@@ -1,12 +1,12 @@
-# Site Manifest: huakwang-vision-page
+# Site Manifest: huahkwang-vision-page
 
 ## 專案基本資訊
-- 專案名稱：huakwang-vision-page
+- 專案名稱：huahkwang-vision-page
 - 網站名稱：華光寺｜願景
 - 網站型態：單頁靜態網站
 - 語言版本：繁體中文
 - 部署方式：GitHub Pages
-- 命名規則：全部統一使用 `huakwang`，不使用 `huakuang`
+- 命名規則：全部統一使用 `huah kwang`，不使用 `huakuang`
 
 ## 網站目的
 本頁用於呈現「華光寺的願景」，清楚介紹寺院未來發展的三大方向：
@@ -37,7 +37,7 @@
 
 ## 檔案結構建議
 ```text
-huakwang-vision-page/
+huahkwang-vision-page/
 ├─ AGENTS.md
 ├─ content_manifest.md
 ├─ final_copy_zh.md
