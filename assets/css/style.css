@@ -97,10 +97,19 @@ a {
 .site-brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 18px;
   font-weight: 700;
   text-decoration: none;
   white-space: nowrap;
+}
+
+.site-brand span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.15em;
+  color: var(--color-ink);
+  font-size: 1.18rem;
+  line-height: 1.2;
 }
 
 .brand-mark {
@@ -614,8 +623,12 @@ h3 {
   }
 
   .site-brand {
-    gap: 8px;
-    font-size: 16px;
+    gap: 12px;
+  }
+
+  .site-brand span {
+    min-height: 1.9em;
+    font-size: 1.05rem;
   }
 
   .brand-logo {
