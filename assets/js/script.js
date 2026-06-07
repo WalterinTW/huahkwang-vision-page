@@ -1,7 +1,11 @@
 const navLinks = document.querySelectorAll(".site-nav a");
+const sectionNavLinks = [...navLinks].filter((link) => {
+  const href = link.getAttribute("href");
+  return href && href.startsWith("#");
+});
 const backToTopButton = document.querySelector(".back-to-top");
 
-navLinks.forEach((link) => {
+sectionNavLinks.forEach((link) => {
   link.addEventListener("click", () => {
     navLinks.forEach((item) => item.classList.remove("is-active"));
     link.classList.add("is-active");
@@ -17,7 +21,7 @@ if (backToTopButton) {
   });
 }
 
-const sections = [...navLinks]
+const sections = sectionNavLinks
   .map((link) => document.querySelector(link.getAttribute("href")))
   .filter(Boolean);
 
