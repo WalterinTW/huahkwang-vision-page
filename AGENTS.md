@@ -211,3 +211,24 @@ Please verify:
 - all content follows the provided markdown files
 - the page renders correctly on desktop and mobile
 - the generated icons are consistent in style
+
+## Playwright check workflow
+This is a Huah Kwang Temple static website project.
+
+After modifying HTML, CSS, or JavaScript, prioritize running the Playwright checks:
+- `npm run test:visual`
+- use `npm run test:visual:headed` when visual inspection in a browser is helpful
+- use `npm run show-report` to review the HTML report after a run
+
+Every website change should check:
+- desktop layout
+- mobile layout
+- no horizontal overflow
+- no console errors
+- primary navigation links are still clickable
+- important images and icons load correctly
+
+Preserve the plain, restrained, dignified website style.
+Do not make broad structural rewrites unless Walter explicitly asks.
+Do not delete existing content or images unless Walter explicitly asks.
+After finishing changes, list which files changed and how Walter can test them.
