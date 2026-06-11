@@ -227,9 +227,11 @@ a {
 }
 
 .home-link-button:hover,
-.home-link-button:focus-visible {
+.home-link-button:focus-visible,
+.home-link-button:active {
   background: var(--color-earth);
   border-color: var(--color-earth);
+  color: var(--color-paper);
 }
 
 .hero-symbol {
