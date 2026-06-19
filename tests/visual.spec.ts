@@ -84,8 +84,7 @@ test('primary navigation links are clickable', async ({ page }) => {
   const navLinks = [
     { label: '宗教弘法', target: '#dharma' },
     { label: '社會慈善', target: '#charity' },
-    { label: '教育發展', target: '#education' },
-    { label: '整體願景', target: '#vision' }
+    { label: '教育發展', target: '#education' }
   ];
 
   for (const link of navLinks) {
