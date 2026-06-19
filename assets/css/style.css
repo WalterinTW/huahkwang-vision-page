@@ -447,8 +447,9 @@ h3 {
 
 .footer-inner {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   min-height: 92px;
   gap: 20px;
 }
@@ -467,6 +468,14 @@ h3 {
   flex-wrap: wrap;
   gap: 12px 18px;
   justify-content: flex-end;
+}
+
+.footer-copyright {
+  flex-basis: 100%;
+  color: rgba(255, 253, 248, 0.58);
+  font-size: 0.86rem;
+  line-height: 1.6;
+  text-align: center;
 }
 
 .back-to-top {
